@@ -7,8 +7,6 @@ const Profile = () => {
   if (isLoading) {
     return <div>Loading ...</div>;
   }
-  console.log(user)
-  console.log(user?.email)
   return (
     isAuthenticated && (
       <div>
